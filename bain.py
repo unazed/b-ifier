@@ -3,7 +3,7 @@ def bifify(bbbb):
   	bbb = b''
   	for b in bbbb:
     		if b not in bb:
-      			bbb += ":b:"
+      			bbb += b":b:"
       			continue
     		bbb += b
   	return bbb
